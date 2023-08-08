@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgba(158, 158, 157, 0.753);
+    padding: 15px 25px 10px 25px;
+    border-top: 4px solid #e8f807;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 130px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 1 1 100px ;
+}
+
+nav li:hover{
+    border-bottom: 1px solid #e8f807;
+    color: aqua;
+}
+
+a{
+    text-decoration: none ;
+    list-style-type: none;
+}
+
+.somos{
+    margin-top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    width: 100 px;
+}
+
+.logo2{
+    width: 500px;
+    margin-right: 50%;
+}
+
+.imagen{
+    width: 600px;
+}
+
+.p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+}
+
+.parrafo2{
+    width: 50%;
+}
+
+.p3{
+    width: 50%;
+}
+
+h3{
+
+}
+
+.p4{
+    width: 50%;
+    
+}
+
+.img1{
+    width: 600px;
+}
+
+.modulo{
+    padding: 10px;
+    display: flex;
+}
+
+.hero{
+    display: flex;
+}
+
+
+
+.servicios{
+    margin-left: 50%;
+    justify-content: center;
+}
